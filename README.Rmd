@@ -41,7 +41,7 @@ protect_rmd("test.Rmd", pw = "somefancypw")
 ## make sure your Rmd is set to knit to HTML!
 ```
 
-You are set! Push to private GitHub repo and activate GitHub pages or whatever hosting service you prefer!
+You are set! Push to private GitHub repo and [activate GitHub pages](https://docs.github.com/en/free-pro-team@latest/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site) or whatever hosting service you prefer!
 
 ## Example
 
