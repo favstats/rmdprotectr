@@ -2,7 +2,7 @@
 
 write_index_html <- function() {
 
-  index_html <- "https://raw.githubusercontent.com/favstats/rmdprotectr/main/html/index.html"
+  index_html <- "https://raw.githubusercontent.com/favstats/rmdprotectr/main/inst/index.html"
 
   raw <- paste0(readLines(index_html), collapse = "\n")
 
