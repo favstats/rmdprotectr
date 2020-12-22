@@ -1,5 +1,5 @@
-Package: htmlprotectr
-Title: What the Package Does (One Line, Title Case)
+Package: rmdprotectr
+Title: Protect an Rmd with a password
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Fabio",

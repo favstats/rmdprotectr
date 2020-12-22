@@ -20,35 +20,33 @@ knitr::opts_chunk$set(
 
 The goal of `rmdprotectr` is to password protect Rmarkdown HTML documents.
 
+> Very simple password protection to static pages or whole websites with no server configuration required: you can use Dropbox, Amazon S3 or any generic hosting service to host a private, password protected site.
+
 ## Installation
 
 You can install the development version of rmdprotectr from [GitHub](https://github.com/favstats/rmdprotectr) with:
 
-```{r}
+```{r, eval = F}
 remotes::install_github("rmdprotectr")
 ```
 
-## Example
+## How to Use
 
-This is a basic example which shows you how to solve a common problem:
 
-```{r example}
+```{r example, eval = F}
 library(rmdprotectr)
-## basic example code
+
+## provide a path to your .Rmd and it will be rendered in the correct folder
+protect_rmd("test.Rmd", pw = "somefancypw")
+
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+You are set! Push to private GitHub repo and activate GitHub pages or whatever hosting service you prefer!
 
-```{r cars}
-summary(cars)
-```
+### Things to consider 
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date.
+- If your hosting service offers directory listing, a visitor can bypass the protection.
+- there's no protection against brute force attack. Pick a very long and hard to guess password.
+- Pasting the link directly to someone will bypass the login
 
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub!
+Credit to [matteobrusa](https://github.com/matteobrusa/Password-protection-for-static-pages) and [scottishstoater](https://github.com/scottishstoater/protected-github-pages) for their initial findings and implementation.
