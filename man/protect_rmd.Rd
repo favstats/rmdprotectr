@@ -13,17 +13,6 @@ protect_rmd(path, pw, ...)
 
 \item{...}{additional arguments passed to rmarkdown::render}
 }
-\value{
-The key used to encrypt the file as an invisible raw vector.
-}
 \description{
 Password protect an Rmd file
-}
-\details{
-Warning: You are using this at your own risk. Make sure your encryption key is
-strong enough. For serious use cases, please also review the code of the functions.
-Any feedback is appreciated. This is an early package version.
-}
-\references{
-The package follows the same approach as this GitHub repo \href{https://github.com/scottishstoater/protected-github-pages}.
 }
