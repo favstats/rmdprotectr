@@ -27,7 +27,8 @@ The goal of `rmdprotectr` is to password protect Rmarkdown HTML documents.
 You can install the development version of rmdprotectr from [GitHub](https://github.com/favstats/rmdprotectr) with:
 
 ```{r, eval = F}
-remotes::install_github("rmdprotectr")
+## you need to specify the main branch
+remotes::install_github("favstats/rmdprotectr", ref = "main")
 ```
 
 ## How to Use

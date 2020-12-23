@@ -21,7 +21,8 @@ You can install the development version of rmdprotectr from
 [GitHub](https://github.com/favstats/rmdprotectr) with:
 
 ``` r
-remotes::install_github("rmdprotectr")
+## you need to specify the main branch
+remotes::install_github("favstats/rmdprotectr", ref = "main")
 ```
 
 ## How to Use
