@@ -52,13 +52,13 @@ implementation.
 You can also test the password protection by going to this [GitHub pages
 site](https://favstats.github.io/pwtest/). The password is: `password`.
 
-## Things to consider
+## READ THIS BEFORE USING:
 
   - If your hosting service offers directory listing, a visitor can
     bypass the protection.
   - there’s no protection against brute force attack. Pick a very long
     and hard to guess password.
-  - Pasting the link directly to someone will bypass the login
+  - **Pasting the link directly to someone will bypass the login** so this is **not a very secure way to password protect your documents**. If you want something stronger check the links below or other alternatives.
 
 ## Other ways to password protect your Rmd
 
