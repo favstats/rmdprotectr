@@ -58,7 +58,7 @@ site](https://favstats.github.io/pwtest/). The password is: `password`.
     bypass the protection.
   - there’s no protection against brute force attack. Pick a very long
     and hard to guess password.
-  - **Pasting the link directly to someone will bypass the login** so this is **not a very secure way to password protect your documents**. If you want something stronger check the links below or other alternatives.
+  - **Pasting the link directly to someone will bypass the login** so this is **not a very secure way to password protect your documents**. If you want something stronger check the links below or other alternatives. The use-case for this package is to share a low-risk documen with someone that should be accessible via the internet but not to everyone immediately.
 
 ## Other ways to password protect your Rmd
 
